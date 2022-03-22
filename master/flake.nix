@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-simplepng-master.flake = false;
+  inputs.src-simplepng-master.ref   = "refs/heads/master";
   inputs.src-simplepng-master.owner = "jrenner";
-  inputs.src-simplepng-master.ref   = "master";
   inputs.src-simplepng-master.repo  = "nim-simplepng";
   inputs.src-simplepng-master.type  = "github";
   
