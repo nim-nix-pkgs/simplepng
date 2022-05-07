@@ -24,20 +24,22 @@
     "nimpng": {
       "inputs": {
         "flakeNimbleLib": [
+          "simplepng-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "simplepng-master",
           "nixpkgs"
         ],
         "src-nimPNG-v0_3_1": "src-nimPNG-v0_3_1"
       },
       "locked": {
         "dir": "v0_3_1",
-        "lastModified": 1651918222,
-        "narHash": "sha256-HkHP8evjN7jsfZ08UaNXdRrDVfaLD41HAOJhmSeJymA=",
+        "lastModified": 1651555766,
+        "narHash": "sha256-nwqLFNhR5LzTUECggcrnOyUZKiI6fE7PsgMrHX3EAhI=",
         "owner": "nim-nix-pkgs",
         "repo": "nimpng",
-        "rev": "fe9ff82adb629996bbc1959fd21e8476b4604ca2",
+        "rev": "d2942980013a9b7cb11dc6599eed8700fb3ef067",
         "type": "github"
       },
       "original": {
@@ -62,9 +64,36 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nimpng": "nimpng",
         "nixpkgs": "nixpkgs",
+        "simplepng-master": "simplepng-master"
+      }
+    },
+    "simplepng-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nimpng": "nimpng",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "src-simplepng-master": "src-simplepng-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556841,
+        "narHash": "sha256-epXPAhDS7RTYWYMErxVw82rHb3Ec46NmybXBR6Muhsk=",
+        "owner": "nim-nix-pkgs",
+        "repo": "simplepng",
+        "rev": "d0405419507138ba68a3459a2f3e437394af5dd1",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "simplepng",
+        "type": "github"
       }
     },
     "src-nimPNG-v0_3_1": {
